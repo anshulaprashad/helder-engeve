@@ -1,122 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Serviços Profissionais | Qualidade, Agilidade e Confiança</title>
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="🔧 Serviços Profissionais — Qualidade e Confiança" />
-  <meta property="og:description" content="Marido de aluguel, mecânica automotiva, pedreiro, web designer e muito mais. Atendimento profissional na sua região." />
-  <meta property="og:image" content="https://anshulaprashad.github.io/helder-engeve/helder323.jpg" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-  <meta property="og:url" content="https://seusite.com" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="🔧 Serviços Profissionais — Qualidade e Confiança" />
-  <meta name="twitter:description" content="Marido de aluguel, mecânica automotiva, pedreiro, web designer e muito mais. Atendimento profissional na sua região." />
-  <meta name="twitter:image" content="https://anshulaprashad.github.io/helder-engeve/helder0893.jpg" />
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🔧 Resolvedor de Problemas em Casa</title>
+  
+  <!-- Meta tags para preview no WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="🔧 Resolvedor de Problemas em Casa">
+  <meta property="og:description" content="Vazamento, coisa quebrada, montagem? CHAMA! Serviço Rápido, Garantido e Preço Justo. ➡️ Solicite um Orçamento AGORA!">
+  <meta property="og:image" content="https://anshulaprashad.github.io/helder-engeve/helder323.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="🔧 Resolvedor de Problemas em Casa">
+  <meta name="twitter:description" content="Vazamento, coisa quebrada, montagem? CHAMA! Serviço Rápido, Garantido e Preço Justo.">
+  <meta name="twitter:image" content="https://anshulaprashad.github.io/helder-engeve/helder323.jpg">
+  
   <style>
     * {
-      box-sizing: border-box;
       margin: 0;
       padding: 0;
-    }
-
-    :root {
-      --cyber-purple: #8A2BE2;
-      --cyber-pink: #FF00FF;
-      --cyber-blue: #00F0FF;
-      --dark-bg: #0b0b14;
-      --light-text: #f0f0ff;
-      --mid-gray: #222233;
-      --card-bg: rgba(20, 20, 40, 0.7);
-      --orange-accent: #FF6B35;
-      --green-accent: #4CAF50;
+      box-sizing: border-box;
     }
 
     body {
-      font-family: 'Poppins', sans-serif;
-      background: var(--dark-bg);
-      color: var(--light-text);
-      overflow-x: hidden;
-      line-height: 1.6;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
     }
 
-    .wrapper {
+    .container {
+      max-width: 500px;
       width: 100%;
-      max-width: 1200px;
-      margin: 0 auto;
-      background: rgba(15, 15, 25, 0.95);
-      box-shadow: 0 0 50px rgba(138, 43, 226, 0.2);
-      border: 1px solid rgba(138, 43, 226, 0.3);
-      border-radius: 12px;
-      margin-top: 20px;
-      margin-bottom: 20px;
-    }
-
-    .hero {
-      background: linear-gradient(rgba(10, 10, 20, 0.8), rgba(20, 10, 40, 0.9)),
-                  url('https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=1600&q=80') center/cover no-repeat;
-      color: #fff;
-      padding: 100px 30px 80px;
+      background: white;
+      border-radius: 20px;
+      padding: 50px 40px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
       text-align: center;
-      position: relative;
-      border-bottom: 2px solid var(--cyber-blue);
     }
 
-    .hero h1 {
-      font-family: 'Orbitron', sans-serif;
-      font-size: 2.8em;
-      font-weight: 700;
+    h1 {
+      font-size: 2em;
+      color: #2c3e50;
       margin-bottom: 20px;
-      line-height: 1.3;
-      background: linear-gradient(to right, var(--cyber-blue), var(--orange-accent));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      text-shadow: 0 0 15px rgba(0, 240, 255, 0.4);
+      line-height: 1.4;
     }
 
-    .hero p {
-      font-size: 1.3em;
-      margin-bottom: 40px;
-      max-width: 800px;
-      margin: 0 auto 40px;
-      font-weight: 400;
-      text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    p {
+      font-size: 1.2em;
+      color: #555;
+      line-height: 1.8;
+      margin-bottom: 15px;
+    }
+
+    .highlight {
+      color: #667eea;
+      font-weight: bold;
     }
 
     .cta-button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 18px 40px;
       background: linear-gradient(135deg, #25D366, #128C7E);
-      color: #fff;
-      padding: 20px 50px;
-      border: none;
-      border-radius: 50px;
-      font-size: 1.2em;
+      color: white;
       text-decoration: none;
-      font-weight: 700;
+      border-radius: 50px;
+      font-size: 1.3em;
+      font-weight: bold;
       box-shadow: 0 8px 25px rgba(37, 211, 102, 0.4);
       transition: all 0.3s ease;
-      display: inline-block;
-      letter-spacing: 1px;
-      font-family: 'Poppins', sans-serif;
-      position: relative;
-      overflow: hidden;
-    }
-
-    .cta-button::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: -100%;
-      width: 100%;
-      height: 100%;
-      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
-      transition: 0.5s;
-    }
-
-    .cta-button:hover::before {
-      left: 100%;
     }
 
     .cta-button:hover {
@@ -124,400 +82,35 @@
       box-shadow: 0 12px 35px rgba(37, 211, 102, 0.6);
     }
 
-    .section {
-      padding: 70px 30px;
-    }
-
-    .section-title {
-      font-family: 'Orbitron', sans-serif;
-      font-size: 2.2em;
-      color: var(--cyber-blue);
-      text-align: center;
-      margin-bottom: 50px;
-      font-weight: 700;
-      text-shadow: 0 0 10px rgba(0, 240, 255, 0.4);
-    }
-
-    .servicos {
-      background: var(--mid-gray);
-      border-top: 1px solid rgba(138, 43, 226, 0.2);
-      border-bottom: 1px solid rgba(138, 43, 226, 0.2);
-    }
-
-    .servicos-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 30px;
-      max-width: 1100px;
-      margin: 0 auto;
-    }
-
-    .servico-card {
-      background: var(--card-bg);
-      padding: 35px 25px;
-      border-radius: 15px;
-      text-align: center;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
-      transition: all 0.3s ease;
-      border: 1px solid rgba(138, 43, 226, 0.3);
-      backdrop-filter: blur(6px);
-    }
-
-    .servico-card:hover {
-      transform: translateY(-8px);
-      box-shadow: 0 0 30px rgba(255, 107, 53, 0.5);
-      border-color: var(--orange-accent);
-    }
-
-    .servico-icon {
-      font-size: 3.5em;
-      margin-bottom: 20px;
-      background: linear-gradient(to right, var(--cyber-blue), var(--orange-accent));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-
-    .servico-title {
-      font-size: 1.4em;
-      font-weight: 600;
-      color: var(--light-text);
-      margin-bottom: 12px;
-      font-family: 'Orbitron', sans-serif;
-    }
-
-    .servico-text {
-      font-size: 1.05em;
-      color: #bbb;
-      line-height: 1.7;
-    }
-
-    .diferenciais {
-      background: rgba(10, 10, 20, 0.9);
-    }
-
-    .diferenciais-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 35px;
-      max-width: 1000px;
-      margin: 0 auto;
-    }
-
-    .diferencial-card {
-      background: var(--card-bg);
-      padding: 35px 25px;
-      border-radius: 20px;
-      text-align: center;
-      border: 1px solid rgba(0, 240, 255, 0.2);
-      transition: all 0.3s ease;
-      backdrop-filter: blur(6px);
-    }
-
-    .diferencial-card:hover {
-      border-color: var(--green-accent);
-      transform: translateY(-5px);
-      box-shadow: 0 0 30px rgba(76, 175, 80, 0.3);
-    }
-
-    .diferencial-icon {
-      font-size: 3.5em;
-      margin-bottom: 20px;
-      background: linear-gradient(to right, var(--green-accent), var(--cyber-blue));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-
-    .diferencial-title {
-      font-size: 1.4em;
-      color: var(--cyber-blue);
-      font-weight: 600;
-      margin-bottom: 15px;
-      font-family: 'Orbitron', sans-serif;
-    }
-
-    .diferencial-text {
-      font-size: 1.05em;
-      color: #ccc;
-      line-height: 1.7;
-    }
-
-    .sobre {
-      background: var(--mid-gray);
-      text-align: center;
-      border-top: 1px solid rgba(138, 43, 226, 0.2);
-      border-bottom: 1px solid rgba(138, 43, 226, 0.2);
-    }
-
-    .sobre-content {
-      max-width: 800px;
-      margin: 0 auto;
-    }
-
-    .sobre-icon {
-      font-size: 4.5em;
-      background: linear-gradient(to right, var(--orange-accent), var(--cyber-blue));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      margin-bottom: 30px;
-    }
-
-    .sobre-text {
-      font-size: 1.2em;
-      color: #ddd;
-      line-height: 1.9;
-      margin-bottom: 30px;
-    }
-
-    .cta-final {
-      background: linear-gradient(135deg, rgba(10, 10, 20, 0.95), rgba(20, 10, 40, 0.95));
-      color: #fff;
-      text-align: center;
-      padding: 80px 30px;
-      border-top: 2px solid var(--orange-accent);
-    }
-
-    .cta-final h2 {
-      font-family: 'Orbitron', sans-serif;
-      font-size: 2.3em;
-      margin-bottom: 25px;
-      background: linear-gradient(to right, var(--orange-accent), var(--cyber-blue));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-
-    .cta-final p {
-      font-size: 1.2em;
-      margin-bottom: 40px;
-      max-width: 700px;
-      margin-left: auto;
-      margin-right: auto;
-      color: #ccc;
-    }
-
-    .whatsapp-float {
-      position: fixed;
-      width: 70px;
-      height: 70px;
-      bottom: 30px;
-      right: 30px;
-      background: #25D366;
-      color: #fff;
-      border-radius: 50%;
-      text-align: center;
-      font-size: 36px;
-      box-shadow: 0 0 30px rgba(37, 211, 102, 0.6);
-      z-index: 100;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-decoration: none;
-      transition: all 0.3s ease;
-      animation: pulse 2s infinite;
-      border: 2px solid white;
-    }
-
-    .whatsapp-float:hover {
-      transform: scale(1.15);
-      box-shadow: 0 0 40px rgba(37, 211, 102, 0.8);
-    }
-
-    @keyframes pulse {
-      0%, 100% { transform: scale(1); }
-      50% { transform: scale(1.08); }
-    }
-
-    .footer {
-      background: #080810;
-      color: #888;
-      text-align: center;
-      padding: 30px 20px;
-      font-size: 0.95em;
-      border-top: 1px solid rgba(138, 43, 226, 0.2);
-    }
-
-    .footer p {
-      margin: 8px 0;
-    }
-
-    .footer strong {
-      color: var(--cyber-blue);
-    }
-
     @media (max-width: 768px) {
-      .hero h1 {
-        font-size: 2em;
+      .container {
+        padding: 40px 30px;
       }
 
-      .hero p {
+      h1 {
+        font-size: 1.6em;
+      }
+
+      p {
         font-size: 1.1em;
-      }
-
-      .section-title {
-        font-size: 1.8em;
       }
 
       .cta-button {
         font-size: 1.1em;
-        padding: 16px 36px;
-      }
-
-      .section {
-        padding: 50px 20px;
-      }
-
-      .whatsapp-float {
-        width: 60px;
-        height: 60px;
-        font-size: 32px;
-        bottom: 20px;
-        right: 20px;
+        padding: 15px 35px;
       }
     }
   </style>
 </head>
 <body>
-  <div class="wrapper">
-    <!-- Hero Section -->
-    <div class="hero">
-      <h1>SERVIÇOS PROFISSIONAIS<br>Qualidade e Confiança</h1>
-      <p>Soluções completas para sua casa, carro e negócio. Profissional experiente, pontual e comprometido com a excelência em cada serviço.</p>
-      <a href="https://wa.me/5544997022672?text=Olá! Gostaria de contratar um serviço profissional." class="cta-button">
-        💬 Solicitar Orçamento Agora
-      </a>
-    </div>
-
-    <!-- Seção Serviços -->
-    <div class="section servicos">
-      <h2 class="section-title">Meus Serviços</h2>
-      <div class="servicos-grid">
-        <div class="servico-card">
-          <div class="servico-icon">🔧</div>
-          <div class="servico-title">Marido de Aluguel</div>
-          <div class="servico-text">
-            Instalações, reparos domésticos, montagem de móveis, manutenção residencial e muito mais.
-          </div>
-        </div>
-
-        <div class="servico-card">
-          <div class="servico-icon">🚗</div>
-          <div class="servico-title">Mecânica Automotiva</div>
-          <div class="servico-text">
-            Manutenção preventiva, diagnóstico, reparos gerais e serviços especializados para seu veículo.
-          </div>
-        </div>
-
-        <div class="servico-card">
-          <div class="servico-icon">🏗️</div>
-          <div class="servico-title">Servente de Pedreiro</div>
-          <div class="servico-text">
-            Auxílio em obras, reformas, preparação de massa, limpeza de canteiro e serviços de construção.
-          </div>
-        </div>
-
-        <div class="servico-card">
-          <div class="servico-icon">💻</div>
-          <div class="servico-title">Web Designer</div>
-          <div class="servico-text">
-            Criação de sites profissionais, landing pages, identidade visual e presença digital completa.
-          </div>
-        </div>
-
-        <div class="servico-card">
-          <div class="servico-icon">📦</div>
-          <div class="servico-title">Chapa / Descarregamento</div>
-          <div class="servico-text">
-            Descarga de caminhões, movimentação de cargas, organização de materiais e serviços de força.
-          </div>
-        </div>
-
-        <div class="servico-card">
-          <div class="servico-icon">⚡</div>
-          <div class="servico-title">Pequenos Serviços</div>
-          <div class="servico-text">
-            Elétrica básica, pintura, jardinagem, limpeza e outros serviços rápidos para sua necessidade.
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Diferenciais -->
-    <div class="section diferenciais">
-      <h2 class="section-title">Por Que Me Contratar?</h2>
-      <div class="diferenciais-grid">
-        <div class="diferencial-card">
-          <div class="diferencial-icon">✅</div>
-          <div class="diferencial-title">Profissionalismo</div>
-          <div class="diferencial-text">
-            Anos de experiência e comprometimento com a qualidade em cada trabalho realizado.
-          </div>
-        </div>
-
-        <div class="diferencial-card">
-          <div class="diferencial-icon">⚡</div>
-          <div class="diferencial-title">Agilidade</div>
-          <div class="diferencial-text">
-            Atendimento rápido e eficiente. Resolvo seu problema com praticidade e pontualidade.
-          </div>
-        </div>
-
-        <div class="diferencial-card">
-          <div class="diferencial-icon">💰</div>
-          <div class="diferencial-title">Preço Justo</div>
-          <div class="diferencial-text">
-            Orçamentos transparentes e valores honestos. Sem surpresas no final do serviço.
-          </div>
-        </div>
-
-        <div class="diferencial-card">
-          <div class="diferencial-icon">🛠️</div>
-          <div class="diferencial-title">Ferramentas Próprias</div>
-          <div class="diferencial-text">
-            Equipamentos profissionais e materiais de qualidade para garantir o melhor resultado.
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Sobre -->
-    <div class="section sobre">
-      <h2 class="section-title">Sobre Mim</h2>
-      <div class="sobre-content">
-        <div class="sobre-icon">👨‍🔧</div>
-        <p class="sobre-text">
-          Profissional multifacetado com experiência em diversas áreas. Atendo com dedicação, pontualidade e compromisso em entregar serviços de excelência.
-        </p>
-        <p class="sobre-text">
-          <strong>Sua satisfação é minha prioridade.</strong> Trabalho com seriedade, respeito e sempre buscando superar expectativas.
-        </p>
-        <p class="sobre-text">
-          Entre em contato e descubra como posso ajudar você!
-        </p>
-      </div>
-    </div>
-
-    <!-- CTA Final -->
-    <div class="cta-final">
-      <h2>Precisa de um Serviço Profissional?</h2>
-      <p>
-        Não perca tempo! Entre em contato agora e receba um orçamento personalizado sem compromisso.
-      </p>
-      <a href="https://wa.me/5544997022672?text=Olá! Preciso contratar o seguinte serviço:" class="cta-button">
-        🔧 Falar Agora no WhatsApp
-      </a>
-    </div>
-
-    <!-- Footer -->
-    <div class="footer">
-      <p><strong>Serviços Profissionais</strong></p>
-      <p>🔧 Marido de Aluguel • 🚗 Mecânica • 🏗️ Pedreiro • 💻 Web Design • 📦 Chapa</p>
-      <p>⚡ Qualidade • Agilidade • Confiança</p>
-      <p style="margin-top: 15px;">© 2025 — Todos os direitos reservados</p>
-    </div>
+  <div class="container">
+    <h1>🔧 Resolvedor de Problemas em Casa</h1>
+    <p>Vazamento, coisa quebrada, montagem? <span class="highlight">CHAMA!</span></p>
+    <p>Serviço Rápido, Garantido e Preço Justo.</p>
+    
+    <a href="https://wa.me/5544997022672?text=Olá! Vim pelo link e gostaria de solicitar um orçamento." class="cta-button">
+      ➡️ Solicite um Orçamento AGORA!
+    </a>
   </div>
-
-  <!-- Botão WhatsApp Flutuante -->
-  <a href="https://wa.me/5544997022672?text=Olá! Gostaria de contratar um serviço." class="whatsapp-float" target="_blank">
-    💬
-  </a>
 </body>
 </html>
